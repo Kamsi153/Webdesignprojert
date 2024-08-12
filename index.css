@@ -1,0 +1,62 @@
+ header{
+    text-align: center
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(135, 86, 182);
+    align-items: center;
+}
+
+nav h3{
+    font-size: 30px;
+}
+
+.nav_list{
+    display: flex;
+}
+
+.nav_list li{
+    list-style: none;
+    margin-left: 18px;
+}
+
+.nav_list li  {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.hero_page {
+    height: 400px;
+  /*  background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+}
+
+.left {
+    height: 300px;
+    width: 40%;
+  /*  background-color: brown; */
+}
+
+.right {
+    height: 300px;
+    width: 40%;
+  /*  background-color: blue; */
+}
+
+.heropage {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    padding-top: 50px;      
+}
